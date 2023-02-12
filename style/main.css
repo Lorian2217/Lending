@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.first-container{
+    min-height: 100vh;
+    width: auto;
+}
+
+.uppertext{
+    font-size: 38px;
+    letter-spacing: 0px;
+    line-height: 84px;
+    color: #171717;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.lowertext{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #787878;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    text-align: center;
+}
+
+.box-1{
+    width: 335px;
+    height: 300px;
+    border: none;
+    background-color: #838383;
+}
+
+.box-2{
+    width: 335px;
+    height: 300px;
+    border: none;
+    background-color: #dddddd;
+}
+
