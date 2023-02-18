@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
 
 
-
+/* First Group */
 .container-header{
     width: auto;
     height: 50px;
@@ -31,4 +31,29 @@
     display: inline;
     word-spacing: 20px;
     font-family: 'Nunito', sans-serif;
+}
+/* Secong Group */
+.container-content{
+    width: auto;
+    min-height: 670px;
+    background-image: url("../img/bg__lead.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
+
+.container-work{
+    width: auto;
+    min-height: 200px;
+}
+
+@media screen and (max-width: 990px) {
+    .container-content{
+        width: auto;
+        min-height: 370px;
+        background-image: url("../img/bg__lead.jpg");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: cover;
+    }
 }
