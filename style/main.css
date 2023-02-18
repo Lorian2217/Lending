@@ -1,81 +1,34 @@
-html, body{
-    margin: 0;
-    padding: 0;
-}
-.first-container{
-    min-height: 100vh;
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+
+
+
+.container-header{
     width: auto;
+    height: 50px;
+    padding: 10px 2em 10px 0;
+    font-size: 20px;
+    text-align: end;
+    user-select: none;
+    background-color: #D9D9D9;
 }
 
-.uppertext{
-    font-size: 38px;
-    letter-spacing: 0px;
-    line-height: 84px;
-    color: #171717;
-    font-weight: 500;
-    font-family: "Montserrat";
-    text-align: center;
+.container-header img{
+    position: relative;
+    float: left;
+    height: inherit;
+    top: -10px;
+    pointer-events: none;
 }
 
-.lowertext{
-    font-size: 18px;
-    letter-spacing: 0px;
-    line-height: 28px;
-    color: #787878;
-    font-weight: 400;
-    font-family: "Nunito Sans";
-    text-align: center;
+.header-slogan{
+    float: left;
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
-.box-1{
-    width: 335px;
-    height: 300px;
-    border: none;
-    background-color: #838383;
+.header-links, li{
+    display: inline;
+    word-spacing: 20px;
+    font-family: 'Nunito', sans-serif;
 }
-
-.box-2{
-    width: 335px;
-    height: 300px;
-    border: none;
-    background-color: #dddddd;
-}
-
-.col a{
-     text-decoration: none;
-    font-size: 15px;
-    letter-spacing: 0px;
-    line-height: 24px;
-    color: #bcbcbc;
-    font-weight: 400;
-    font-family: "Nunito Sans";
-}
-
-.col p{
-    margin-bottom: 0;
-}
-
-.footer{
-    width: 100%;
-    height: 40vh;
-    background-color: #141414;
-}
-
-.footer__uppertext {
-    font-size: 18px;
-    letter-spacing: 0px;
-    /* line-height: 72px; */
-    color: #ffffff;
-    font-weight: 500;
-    font-family: "Montserrat";
-}
-
-.footer__lowertext {
-    font-size: 15px;
-    letter-spacing: 0px;
-    line-height: 24px;
-    color: #bcbcbc;
-    font-weight: 400;
-    font-family: "Nunito Sans";
-}
-
