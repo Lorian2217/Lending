@@ -1,5 +1,5 @@
 @import "./reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Nunito&display=swap');
 
 
 /* First Group */
@@ -35,25 +35,51 @@
 /* Secong Group */
 .container-content{
     width: auto;
+    padding: 10em 2em 0 0;
     min-height: 670px;
     background-image: url("../img/bg__lead.jpg");
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: cover;
 }
+.content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    float: right;
+    max-width: 450px;
+    margin: 10px;
+}
+    .text-upper{
+        width: auto;
+        font-size: 32px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .text-lower{
+        width: auto;
+        font-size: 22px;
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;;
+    }
 
 .container-work{
     width: auto;
-    min-height: 200px;
+    min-height: 300px;
 }
 
 @media screen and (max-width: 990px) {
     .container-content{
-        width: auto;
+        padding: 5em 2em 0 0;
         min-height: 370px;
-        background-image: url("../img/bg__lead.jpg");
-        background-repeat: no-repeat;
-        background-position: left bottom;
-        background-size: cover;
+    }
+    .content-text{
+        max-width: 350px;
+    }
+    .text-upper{
+        font-size: 24px;
+    }
+    .text-lower{
+        font-size: 16px;
     }
 }
